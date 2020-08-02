@@ -1,0 +1,310 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    background-image: url(images/body-bckgnd3.png);
+    background-size: 35%;
+    background-color: rgb(129, 129, 129);
+    font-family: Montserrat; 
+}
+
+.logo {
+    padding: 60px 10px 70px 100px;
+}
+
+.wrapper {
+    display: grid;
+    margin: auto;  
+    background-image: url(images/DIABLOSV1.jpg); /**/
+    background-position-y: bottom;
+    background-size: auto;
+    position: relative;
+    max-width: 1400px;
+    height: ;
+    /*height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 5fr 2fr;*/
+
+}
+
+.wrapperhome, .wrappershop {
+    display: grid;
+    margin: auto;  
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages2.exchangeandmart.co.uk%2Fimages%2Fclassic-cars%2F2726%2Fretro-kings.jpg&f=1&nofb=1);
+    background-position-y: bottom;
+    background-size: auto;
+    position: relative;
+    max-width: 1400px;
+    height: ;
+}
+
+.wrappersupra {
+    display: grid;
+    margin: auto;  
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpictures.topspeed.com%2FIMG%2Fcrop%2F201405%2Ftoyota-supra-generat-45_1600x0w.jpg&f=1&nofb=1); /**/
+    background-position-y: bottom;
+    background-size: fit;
+    position: relative;
+    max-width: 1400px;
+    height: ;
+}
+
+.wrapper69stingray {
+    display: grid;
+    margin: auto;  
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.speednik.com%2Ffiles%2F2019%2F03%2Frare-rides-the-1969-chevrolet-corvette-stingray-zl-1-2019-03-18_10-33-47_339662.png&f=1&nofb=);
+    background-position-y: bottom;
+    background-size: fit;
+    position: relative;
+    max-width: 1400px;
+}
+
+.wrapper71daytonaspyder {
+    display: grid;
+    margin: auto;  
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/08/02/412941/3b9cdc8b1913fbca3815d4503fd66db7.jpg);
+    background-position-y: bottom;
+    background-size: fit;
+    position: relative;
+    max-width: 1400px;
+}
+
+*{
+    box-sizing: border-box;
+    }
+
+h3, main h3 {
+    font-weight: light;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.hometxt {
+    padding: 15px;
+    margin: ;
+    background-color: rgba(22, 22, 22, 0.6);  
+    width: 550px;
+}    
+
+.calltosub {
+    background-color: rgba(22, 22, 22, 0.6);  
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 210px;
+    width: 380px;
+}
+
+.pageheadline {
+    font-size: 45px;
+    font-weight: lighter;
+    padding-left: 70px;
+    color: white;
+    text-align: left;
+
+}
+
+.newsblock {
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-color: rgba(22, 22, 22, 0.6);    
+}
+
+.newsblock a:hover {
+    text-decoration: underline;
+}
+
+.readmorenews {
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(22, 22, 22, 0.6);  
+}
+
+.theteam {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 90%;
+    padding: 10px;
+    background-color: rgba(22, 22, 22, 0.6);    
+}
+
+.theteam li {
+    list-style: none;
+}
+
+.bioimg {
+    float: right;
+    padding: 15px;
+}
+
+
+
+.reviews {
+    display: grid;
+    grid-template-columns: 3fr 2fr;   
+    grid-auto-rows: 3fr 3fr 3fr;
+    background-color: rgba(22, 22, 22, 0.6);   
+}
+.reviews div {
+    padding: 15px;
+    width: 100%;
+}
+
+.reviews a {
+    color: grey;
+}
+
+.reviewimg {
+    float: right;
+}
+
+.reviewtxt {
+    margin: 0 auto; 
+    margin-top: -340px;
+    padding: 0px, 10px, 10px, 10px;
+}
+
+.mainreviewtxt {
+    padding: 25px;
+    background-color: rgba(22, 22, 22, 0.6); 
+}
+
+.spectable {
+    float: left;
+    background-color: rgba(22, 22, 22, 0.6); 
+    width: 40%;   
+    margin-top: 100px;
+}
+
+.wrappershop {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax (150px, 1fr 1fr 1fr) );
+    grid-auto-rows: 75px;
+    grid-gap: 220px;
+    width: 1400px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages2.exchangeandmart.co.uk%2Fimages%2Fclassic-cars%2F2726%2Fretro-kings.jpg&f=1&nofb=1);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.shopimg {
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (150px, 1fr) );
+}
+
+nav {
+    font-family: Montserrat;
+    font-weight: light;
+    letter-spacing: 2px;
+    text-align: center;
+    word-spacing: 110px;
+    padding: 15px 20px 20px 10px;
+    width: 100%;
+    display: inline inline-block;
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+    text-decoration: none; 
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline overline;
+}
+
+form { 
+    display: grid;
+    width: 350px;
+    margin-left: 110px;
+    position: relative;
+    padding: 10px;
+    background-color: rgba(22, 22, 22, 0.6);
+    border: none;
+}
+
+legend {
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    padding: 20px 20px 20px 20px;
+}
+
+label {
+    font-family: Montserrat;
+    letter-spacing: 1px;
+}
+
+input {
+    display: block;
+    font-family: Montserrat; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+ 
+
+button {
+    font-family: Montserrat;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+strong {
+    font-size: 10px;
+}
+
+aside, main {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 26px;
+    margin-left: 100px;
+    margin-top: 110px;
+}
+
+footer {
+    font-family: Montserrat;
+    display: inline-block;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+/*.FB, .YT, .IG, .TW { 
+    display: inline-block;
+   
+    align-content: space-around;
+}*/
+
+h4 {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: light;
+}
+
+
+@media screen and (max-width: 815px) {
+    nav {
+        display: block;
+        line-break: strict;
+        width: 580px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .logo {
+        width: 700px;
+        margin-left: 0px;  
+        padding-left: 50px;
+    }
+}
